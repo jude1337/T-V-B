@@ -100,17 +100,17 @@ def main():
 
     os.system(f"title judas - Twitch Viewer Bot @jud6s ")
 
-    print(Colorate.Vertical(Colors.green_to_cyan, Center.XCenter("""
-          
-                         ▄█ ███    █▄  ████████▄     ▄████████    ▄████████
-                        ███ ███    ███ ███   ▀███   ███    ███   ███    ███
-                        ███ ███    ███ ███    ███   ███    ███   ███    █▀ 
-                        ███ ███    ███ ███    ███   ███    ███   ███       
-                        ███ ███    ███ ███    ███ ▀███████████ ▀███████████
-                        ███ ███    ███ ███    ███   ███    ███          ███
-                        ███ ███    ███ ███   ▄███   ███    ███    ▄█    ███
-                    █▄ ▄███ ████████▀  ████████▀    ███    █▀   ▄████████▀ 
-                    ▀▀▀▀▀▀                                                 
+    print(Colorate.Vertical(Colors.green_to_cyan, Center.XCenter("""         
+       
+                     ▄█ ███    █▄  ████████▄     ▄████████    ▄████████
+                    ███ ███    ███ ███   ▀███   ███    ███   ███    ███
+                    ███ ███    ███ ███    ███   ███    ███   ███    █▀ 
+                    ███ ███    ███ ███    ███   ███    ███   ███       
+                    ███ ███    ███ ███    ███ ▀███████████ ▀███████████
+                    ███ ███    ███ ███    ███   ███    ███          ███
+                    ███ ███    ███ ███   ▄███   ███    ███    ▄█    ███
+                █▄ ▄███ ████████▀  ████████▀    ███    █▀   ▄████████▀ 
+                ▀▀▀▀▀▀                                                 
                              Github  github.com/jude1337    """)))
     announcement = print_announcement()
     print("")
@@ -143,21 +143,21 @@ def main():
 
             save_settings(twitch_username, set_160p)
         
-    proxy_count = int(input(Colorate.Vertical(Colors.cyan_to_blue, "How many proxy sites do you want to open? (Viewer to send)")))
+    proxy_count = int(input(Colorate.Vertical(Colors.cyan_to_blue, "How many proxy sites do you want to open? (Viewers to send)")))
 
 
     os.system("cls")
     print(Colorate.Vertical(Colors.green_to_cyan, Center.XCenter("""
-          
-                         ▄█ ███    █▄  ████████▄     ▄████████    ▄████████
-                        ███ ███    ███ ███   ▀███   ███    ███   ███    ███
-                        ███ ███    ███ ███    ███   ███    ███   ███    █▀ 
-                        ███ ███    ███ ███    ███   ███    ███   ███       
-                        ███ ███    ███ ███    ███ ▀███████████ ▀███████████
-                        ███ ███    ███ ███    ███   ███    ███          ███
-                        ███ ███    ███ ███   ▄███   ███    ███    ▄█    ███
-                    █▄ ▄███ ████████▀  ████████▀    ███    █▀   ▄████████▀ 
-                    ▀▀▀▀▀▀                                                 
+       
+                     ▄█ ███    █▄  ████████▄     ▄████████    ▄████████
+                    ███ ███    ███ ███   ▀███   ███    ███   ███    ███
+                    ███ ███    ███ ███    ███   ███    ███   ███    █▀ 
+                    ███ ███    ███ ███    ███   ███    ███   ███       
+                    ███ ███    ███ ███    ███ ▀███████████ ▀███████████
+                    ███ ███    ███ ███    ███   ███    ███          ███
+                    ███ ███    ███ ███   ▄███   ███    ███    ▄█    ███
+                █▄ ▄███ ████████▀  ████████▀    ███    █▀   ▄████████▀ 
+                ▀▀▀▀▀▀                                                 
  Improvements can be made to the code. If you're getting an error, visit my discord.
                              Discord discord.gg/buVf7537Tc    
                              Github  github.com/jude1337    """)))
